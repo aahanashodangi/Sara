@@ -1,0 +1,27 @@
+@media screen and (max-width: 950px){
+
+	.tiles-wrapper > .tiles-column-wrapper{
+	display: flex;
+	flex-direction: column;
+	margin: 80px;
+}
+.tiles-wrapper{
+	height:620px;
+}
+i{
+	font-size: 1.5em;
+}
+
+}
+
+@media screen and (max-width: 450px){
+	.tiles-wrapper{
+	height:750px;
+}
+
+@media screen and (max-width: 340px){
+	.tiles-wrapper{
+	height:950px;
+}
+
+}
